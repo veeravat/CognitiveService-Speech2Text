@@ -2,8 +2,8 @@
 using Microsoft.CognitiveServices.Speech;
 using Microsoft.CognitiveServices.Speech.Audio;
 
-string YourSubscriptionKey = "<YourSubScriptionKey>";
-string YourServiceRegion = "<Region>";
+string YourSubscriptionKey = "<Your-Key>";
+string YourServiceRegion = "<Region ex. eastasia>";
 
 
 var speechConfig = SpeechConfig.FromSubscription(YourSubscriptionKey, YourServiceRegion);
